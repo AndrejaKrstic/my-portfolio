@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ["demo-source.imgix.net"], // Add your Imgix hostname here
+  },
 };
 
 export default nextConfig;
