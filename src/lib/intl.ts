@@ -12,9 +12,16 @@ export default async function getIntl(possibleIntl: string) {
     return messages[key];
   }
 
+  function getMessages(keys: string[]) {
+    keys.map((key) => {
+      return messages[key];
+    });
+  }
+
   return {
     locale: locale,
     messages: (await import(`@/locales/${locale}.json`)).default,
     getMessage,
+    getMessages,
   };
 }

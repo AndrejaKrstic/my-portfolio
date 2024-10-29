@@ -1,5 +1,10 @@
 {
   "home-page-metadata-description": "ovo je metadata za home page",
   "welcome": "Dobro dosli",
-  "zoi-mala": "coka moka mala koka"
+  "zoi-mala": "coka moka mala koka",
+  "main-navigation-home-link": "Početna",
+  "main-navigation-about-link": "O nama",
+  "main-navigation-projects-link": "Projekti",
+  "main-navigation-pricing-link": "Cenovnik",
+  "main-navigation-contact-us-link": "Kontaktirajte nas"
 }

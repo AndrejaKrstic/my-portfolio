@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "@/styles/global.css";
 import IntlClient from "@/components/intl-client";
 import getIntl from "@/lib/intl";
+import MainNavigation from "@/components/navigation/MainNavigation";
 
 export const metadata: Metadata = {
   title: { template: "$s | Nexum IT", default: "Nexum IT" },
@@ -22,6 +23,7 @@ export default async function LocaleLayout(
     <html lang={intl.locale}>
       <body className={`antialiased`}>
         <IntlClient messages={intl.messages} locale={intl.locale}>
+          <MainNavigation />
           {props.children}
         </IntlClient>
       </body>
