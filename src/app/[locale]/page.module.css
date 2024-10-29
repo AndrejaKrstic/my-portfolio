@@ -10,3 +10,8 @@
   height: 100%;
   object-fit: contain;
 }
+.imageDiv button {
+  border: 1px solid;
+  border-radius: 10px;
+  width: 45%;
+}
