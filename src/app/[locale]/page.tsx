@@ -33,6 +33,7 @@ export async function generateMetadata(
         ...generateAlternateLanguageLinks(""),
       },
     },
+    metadataBase: new URL(process.env.NEXT_PUBLIC_HOST_URL || ""),
   };
 }
 
