@@ -1,7 +1,7 @@
 import style from "./page.module.css";
 import { Metadata, ResolvingMetadata } from "next";
 import getIntl from "@/lib/intl";
-import OGImage from "/public/assets/nexum-logo-full-black.svg";
+import OGImage from "/public/assets/og-image-logo.png";
 import {
   generateAlternateLanguageLinks,
   generateAlternateLanguageUrl,
