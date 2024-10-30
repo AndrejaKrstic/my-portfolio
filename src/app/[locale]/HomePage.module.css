@@ -1,0 +1,102 @@
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.heroLeft,
+.heroRight {
+  width: 100%;
+  color: white;
+}
+
+.heroRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+}
+
+.heroRightMainImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.heroCtaContainer {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.heroCta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  font-weight: 700;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  margin: 0 auto;
+}
+.heroCta:hover {
+  color: white;
+  background-color: black;
+}
+
+.ctaArrow {
+  margin-left: 10px;
+}
+
+.whatWeOfferSection {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.whatWeOfferTitle {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.offerCards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.offerCard {
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .offerCards {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media (min-width: 767px) {
+  .hero {
+    flex-direction: row;
+  }
+  .heroLeft {
+    max-width: 40%;
+    flex: 1;
+  }
+  .heroRight {
+    max-width: 60%;
+    flex: 1;
+  }
+}

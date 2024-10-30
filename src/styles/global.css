@@ -68,14 +68,17 @@ ol[role="list"] {
 html {
   font-size: 16px; /* 1rem = 16px */
   scroll-behavior: smooth;
-  overscroll-behavior: none;
 }
 
 body {
   font-family: "Oxanium", sans-serif;
-  color: #333; /* Dark gray for text */
-  background-color: #f9f9f9; /* Light background */
+  color: #333;
+  /* background-color: #f9f9f9; */
+  background-image: url("/assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   line-height: 1.6;
   height: 100vh;
-  overscroll-behavior: none;
 }

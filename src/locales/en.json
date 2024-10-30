@@ -2,9 +2,21 @@
   "home-page-metadata-description": "this is a metadata description",
   "welcome": "Welcome",
   "zoi-mala": "Choka little mocha coffee",
+  "select-language-label": "Select Language",
+  "close-label": "Close",
   "main-navigation-home-link": "Home",
   "main-navigation-about-link": "About Us",
   "main-navigation-projects-link": "Projects",
   "main-navigation-pricing-link": "Pricing",
-  "main-navigation-contact-us-link": "Contact us"
+  "main-navigation-contact-us-link": "Contact us",
+  "home-page-hero-title": "Turning Ideas into Impactful Digital Presence",
+  "home-page-hero-subtitle": "We approach each project with a fresh perspective, crafting websites that are aligned with your ideas and optimized for success.",
+  "home-page-hero-cta-text": "Let's Build Your Vision Together",
+  "home-page-what-we-offer": "What We Offer",
+  "home-page-offer-one": "Create Website For Your Business",
+  "home-page-offer-one-text": "Impress customers with a modern, easy-to-use site that will improve your business.",
+  "home-page-offer-two": "Professional Portfolio Websites",
+  "home-page-offer-two-text": "Impress clients with a stunning portfolio website that showcases your work.",
+  "home-page-offer-three": "Tailored Web Applications",
+  "home-page-offer-three-text": "Get custom web applications designed to meet your unique business needs and enhance your productivity."
 }
