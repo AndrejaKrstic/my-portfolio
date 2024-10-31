@@ -8,6 +8,7 @@ const languageList = [
 export const i18nConfig = {
   locales: ["sr", "en"] as const,
   defaultLocale: "sr" as const,
+  localeDetection: false,
 };
 
 export type Locale = "sr" | "en";
