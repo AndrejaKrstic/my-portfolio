@@ -5,9 +5,7 @@ import OGImage from "/public/assets/og-image-logo.png";
 import {
   generateAlternateLanguageLinks,
   generateAlternateLanguageUrl,
-  isLocale,
 } from "@/lib/i18n-config";
-import { notFound } from "next/navigation";
 import HomePage from "./HomePage";
 
 interface PageProps {
@@ -42,12 +40,7 @@ export async function generateMetadata(
   };
 }
 
-export default async function Home({ params }: PageProps) {
-  const locale = (await params).locale;
-  if (!isLocale(locale)) {
-    return notFound();
-  }
-
+export default async function Home() {
   return (
     <div role="main" className={style.mainDiv}>
       <HomePage />

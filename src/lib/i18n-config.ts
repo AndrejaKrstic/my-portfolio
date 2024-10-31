@@ -1,4 +1,7 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { NextRequest } from "next/server";
 import { currentEnvUrl } from "./runtime-env/env";
+import { Config } from "next-i18n-router/dist/types";
 
 const languageList = [
   { label: "Srpski", value: "sr" },
@@ -8,7 +11,9 @@ const languageList = [
 export const i18nConfig = {
   locales: ["sr", "en"] as const,
   defaultLocale: "sr" as const,
-  localeDetection: false,
+  localeDetector: (_request: NextRequest, _config: Config) => {
+    return "sr";
+  },
 };
 
 export type Locale = "sr" | "en";
