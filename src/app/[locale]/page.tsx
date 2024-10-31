@@ -21,7 +21,9 @@ export async function generateMetadata(
   const locale = (await params).locale;
   const intl = await getIntl(locale);
   const previousImages = (await parent).openGraph?.images || [];
+  const description = intl.getMessage("home-page-meta-description");
   return {
+    description: description,
     openGraph: {
       images: [OGImage.src, ...previousImages],
     },

@@ -1,17 +1,1 @@
-.imageDiv {
-  width: 200px;
-  height: auto;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-}
-.image {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.imageDiv button {
-  border: 1px solid;
-  border-radius: 10px;
-  width: 45%;
-}
+

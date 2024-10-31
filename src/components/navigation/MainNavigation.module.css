@@ -88,7 +88,7 @@
   right: 0;
   height: 100%;
   width: 75%;
-  background-image: url("/assets/mobile-menu-background.png");
+  background: linear-gradient(to bottom, #c1a2d9, #c5c2eb);
   box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
   z-index: 50;
   padding: 24px;
@@ -110,21 +110,6 @@
 
 .mobileContactButton {
   margin-top: 24px;
-}
-
-.languageButton {
-  background-color: transparent;
-  width: 25px;
-  height: 25px;
-  border: none;
-  cursor: pointer;
-  margin-right: 20px;
-}
-.languageIcon {
-  color: black;
-}
-.languageIcon:hover {
-  color: white;
 }
 
 .languageModal {
@@ -228,13 +213,6 @@
     width: auto;
     position: relative;
     right: 0px;
-  }
-
-  .languageIcon {
-    color: white;
-  }
-  .languageIcon:hover {
-    color: black;
   }
 
   .mobileMenuIcon {
