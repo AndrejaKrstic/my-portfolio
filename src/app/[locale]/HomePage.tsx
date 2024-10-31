@@ -8,6 +8,7 @@ import hero_main_img from "/public/assets/hero-main.png";
 import { FaArrowRight } from "react-icons/fa";
 import { AiOutlineShop } from "react-icons/ai";
 import { PiReadCvLogoBold, PiGlobeHemisphereEastFill } from "react-icons/pi";
+import ProcessStepSection from "@/components/ProcessStepSection";
 
 export default function HomePage() {
   return (
@@ -32,14 +33,14 @@ export default function HomePage() {
           />
         </div>
         <div className={style.heroCtaContainer}>
-          <button className={style.heroCta}>
+          <a className={style.heroCta} href="#what-we-offer-section">
             <FormattedMessage id="home-page-hero-cta-text" />
             <FaArrowRight className={style.ctaArrow} />
-          </button>
+          </a>
         </div>
       </div>
       <div className={style.whatWeOfferSection}>
-        <h2 className={style.whatWeOfferTitle}>
+        <h2 className={style.whatWeOfferTitle} id="what-we-offer-section">
           <FormattedMessage id="home-page-what-we-offer" />
         </h2>
         <div className={style.offerCards}>
@@ -72,7 +73,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className={style.developProcessSection}></div>
+      <ProcessStepSection />
     </Container>
   );
 }

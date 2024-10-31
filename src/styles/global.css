@@ -71,7 +71,6 @@ html {
 }
 
 body {
-  height: 100vh;
   font-family: "Oxanium", sans-serif;
   color: black;
   background: linear-gradient(to bottom, #65c8e6, #402d48);

@@ -1,0 +1,61 @@
+.developProcessSection {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.processStep {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px 0px;
+  padding: 15px;
+}
+
+.developProcessTitle {
+  color: white;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stepNumber {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.stepImageContainer {
+  min-width: auto;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.stepImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.stepText {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  align-content: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 767px) {
+  .processStep {
+    flex-wrap: nowrap;
+  }
+
+  .stepImageContainer {
+    min-width: 400px;
+    max-width: 500px;
+  }
+}
