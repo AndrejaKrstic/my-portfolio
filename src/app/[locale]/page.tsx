@@ -22,9 +22,14 @@ export async function generateMetadata(
   const intl = await getIntl(locale);
   const previousImages = (await parent).openGraph?.images || [];
   const description = intl.getMessage("home-page-meta-description");
+  const title = intl.getMessage("company-name");
   return {
     description: description,
     openGraph: {
+      title: title,
+      description: description,
+      url: process.env.NEXT_PUBLIC_HOST_URL,
+      siteName: title,
       images: [OGImage.src, ...previousImages],
     },
     alternates: {
