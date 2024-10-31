@@ -73,7 +73,7 @@ html {
 body {
   font-family: "Oxanium", sans-serif;
   color: #333;
-  background-image: url("/assets/background.png");
+  background: linear-gradient(to bottom, #65c8e6, #402d48);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

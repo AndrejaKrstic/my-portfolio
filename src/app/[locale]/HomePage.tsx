@@ -25,6 +25,7 @@ export default function HomePage() {
           <Image
             className={style.heroRightMainImage}
             alt="hero"
+            loading="eager"
             src={hero_main_img.src}
             width={hero_main_img.width}
             height={hero_main_img.height}
