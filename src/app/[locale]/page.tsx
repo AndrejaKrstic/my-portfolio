@@ -1,4 +1,3 @@
-import style from "./page.module.css";
 import { Metadata, ResolvingMetadata } from "next";
 import getIntl from "@/lib/intl";
 import OGImage from "/public/assets/og-image-logo.png";
@@ -41,9 +40,5 @@ export async function generateMetadata(
 }
 
 export default async function Home() {
-  return (
-    <div role="main" className={style.mainDiv}>
-      <HomePage />
-    </div>
-  );
+  return <HomePage />;
 }

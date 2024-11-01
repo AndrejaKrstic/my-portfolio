@@ -1,0 +1,10 @@
+.spinnerContainer {
+  margin: 40px 0;
+  height: 100%;
+  text-align: center;
+}
+
+.spinner {
+  margin: 0 auto;
+  width: 30px;
+}

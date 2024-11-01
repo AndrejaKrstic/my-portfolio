@@ -46,7 +46,6 @@
   font-weight: 700;
   border-top-left-radius: 30px;
   border-bottom-right-radius: 30px;
-
   margin: 0 auto;
 }
 .heroCta:hover {
@@ -56,36 +55,6 @@
 
 .ctaArrow {
   margin-left: 10px;
-}
-
-.whatWeOfferSection {
-  margin-top: 80px;
-  text-align: center;
-}
-
-.whatWeOfferTitle {
-  font-size: 2rem;
-  color: white;
-  margin-bottom: 30px;
-}
-
-.offerCards {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-}
-
-.offerCard {
-  color: white;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-@media (min-width: 768px) {
-  .offerCards {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
 }
 
 @media (min-width: 767px) {

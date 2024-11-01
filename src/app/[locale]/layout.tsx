@@ -5,6 +5,7 @@ import getIntl from "@/lib/intl";
 import MainNavigation from "@/components/navigation/MainNavigation";
 import { i18nConfig } from "@/lib/i18n-config";
 import { notFound } from "next/navigation";
+import Footer from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
   title: { template: "$s | Nexum IT", default: "Nexum IT" },
@@ -29,7 +30,8 @@ export default async function LocaleLayout(
       <body className={`antialiased`}>
         <IntlClient messages={intl.messages} locale={intl.locale}>
           <MainNavigation />
-          {props.children}
+          <div role="main">{props.children}</div>
+          <Footer />
         </IntlClient>
       </body>
     </html>

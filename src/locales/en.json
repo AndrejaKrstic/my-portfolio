@@ -18,9 +18,13 @@
   "home-page-offer-three": "Tailored Web Applications",
   "home-page-offer-three-text": "Get custom web applications designed to meet your unique business needs and enhance your productivity.",
   "home-page-meta-description": "You need a website for your business or portfolio? You are in the right place!",
-  "home-page-process-step-one": "In this initial phase, we work together to understand your vision, goals, and the audience you're targeting. By defining project priorities and creating a tailored roadmap, we set the foundation for a site that aligns perfectly with your brand.",
+  "home-page-process-step-one": "In this initial phase, we work together to understand your vision, goals, and the audience you're targeting. By defining project priorities and creating a tailored roadmap, we set the foundation for a site that aligns perfectly with your brand. This step is completely free!",
   "home-page-process-step-two": "Our design phase focuses on translating your vision into a beautiful, user-friendly experience that engages your audience. With detailed layouts, color schemes, and interactive prototypes, we ensure every design choice resonates with your brand and goals.",
   "home-page-process-step-three": "Here, we bring the designs to life by building a high-performance, secure, and scalable website. We rigorously test functionality and compatibility across devices, creating a smooth, reliable experience for your users.",
   "home-page-process-step-four": "Our goal in this final step is to ensure a seamless launch, making the site fully accessible and optimized for users. We handle server setup, SEO configuration, and provide post-launch support to guarantee the site's success from day one.",
-  "home-page-process-title": "Steps to your solution"
+  "home-page-process-title": "Steps to your solution",
+  "footer-privacy-policy": "Privacy Policy",
+  "footer-terms-of-service": "Terms Of Service",
+  "home-page-check-out-pricing": "Check out our pricing and schedule a free consultation!",
+  "error-loading": "Sorry,+there's+been+an+error..."
 }
